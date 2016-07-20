@@ -1,13 +1,12 @@
 {
-  "name": "7-segment-node",
+  "name": "7-segment",
   "version": "0.0.1",
   "description": "Node JS helper to manage a single digit 7-segment display",
   "main": "index.js",
   "dependencies": {
     "wiring-pi": ""
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sketchthat/7-segment-node.git"
@@ -24,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sketchthat/7-segment-node/issues"
   },
-  "homepage": "https://github.com/sketchthat/7-segment-node#readme"
+  "homepage": "https://github.com/sketchthat/7-segment-node#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
