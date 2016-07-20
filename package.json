@@ -1,0 +1,28 @@
+{
+  "name": "7-segment-node",
+  "version": "0.0.1",
+  "description": "Node JS helper to manage a single digit 7-segment display",
+  "main": "index.js",
+  "dependencies": {
+    "wiring-pi": ""
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sketchthat/7-segment-node.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "breadboard",
+    "segment",
+    "display"
+  ],
+  "author": "Michael Kimpton <mike@sketchthat.com> (https://sketchthat.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sketchthat/7-segment-node/issues"
+  },
+  "homepage": "https://github.com/sketchthat/7-segment-node#readme"
+}
