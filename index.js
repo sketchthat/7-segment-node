@@ -39,26 +39,30 @@ var draw = function(configA, configB, configC, configD, configE, configF, config
         wpi.digitalWrite(configDP, ledOff);
     };
 
+    this.runRefresh = function() {
+        drawReset();
+
+        if (i == 0) {
+            wpi.digitalWrite(configA, ledOn);
+        } else if (i == 1) {
+            wpi.digitalWrite(configB, ledOn);
+        } else if (i == 2) {
+            wpi.digitalWrite(configC, ledOn);
+        } else if (i == 3) {
+            wpi.digitalWrite(configD, ledOn);
+        } else if (i == 4) {
+            wpi.digitalWrite(configE, ledOn);
+        } else if (i == 5) {
+            wpi.digitalWrite(configF, ledOn);
+            i = -1;
+        }
+    }
+
     this.rotate = function() {
         var i = 0;
 
         setInterval(function() {
-            drawReset();
-
-            if (i == 0) {
-                wpi.digitalWrite(configA, ledOn);
-            } else if (i == 1) {
-                wpi.digitalWrite(configB, ledOn);
-            } else if (i == 2) {
-                wpi.digitalWrite(configC, ledOn);
-            } else if (i == 3) {
-                wpi.digitalWrite(configD, ledOn);
-            } else if (i == 4) {
-                wpi.digitalWrite(configE, ledOn);
-            } else if (i == 5) {
-                wpi.digitalWrite(configF, ledOn);
-                i = -1;
-            }
+            runRefresh();
 
             i++;
         }, 200);
