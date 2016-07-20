@@ -9,8 +9,7 @@ A small library that controls a single digit 7-segment display.
 ## Wiring
 
 ![7 segement display](https://upload.wikimedia.org/wikipedia/commons/0/02/7_segment_display_labeled.svg "Example 7-segment display.")
-
-TBA
+![7 segement wiring](https://raw.githubusercontent.com/sketchthat/7-segment-node/master/assets/7-segment_bb.png "Example wiring for 7-segment display.")
 
 ## Usage
 
@@ -21,10 +20,6 @@ TBA
     draw.display('0'); // will display 0 on the 7-segment display
     draw.display('9'); // will display 9 on the 7-segment display
     draw.display('.'); // will display . on the 7-segment display
-
-## Tests
-
-TBA
 
 ## Contributing
 
