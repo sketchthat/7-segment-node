@@ -1,6 +1,6 @@
 {
   "name": "7-segment",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node JS helper to manage a single digit 7-segment display",
   "main": "index.js",
   "dependencies": {

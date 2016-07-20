@@ -1,7 +1,5 @@
 'use strict';
 
-var wpi = require('wiring-pi');
-
 /**
  * Controls single digit 7-segment display
  * @param {number} configA
@@ -13,9 +11,7 @@ var wpi = require('wiring-pi');
  * @param {number} configG
  * @param {number} configDP
  */
-var draw = function(configA, configB, configC, configD, configE, configF, configG, configDP) {
-    wpi.setup('wpi');
-
+var draw = function(wpi, configA, configB, configC, configD, configE, configF, configG, configDP) {
     var ledOn = 1;
     var ledOff = 0;
 

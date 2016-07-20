@@ -4,7 +4,7 @@
 A small library that controls a single digit 7-segment display.
 
 ## Installation
-    `npm install 7-segment`
+    npm install 7-segment
 
 ## Wiring
 
@@ -20,6 +20,14 @@ A small library that controls a single digit 7-segment display.
     draw.display('0'); // will display 0 on the 7-segment display
     draw.display('9'); // will display 9 on the 7-segment display
     draw.display('.'); // will display . on the 7-segment display
+
+## Important Note
+
+When using this library you must run Node JS as sudo.
+
+`sudo nodejs index.js`
+
+This is a requirement of the Wiring-Pi library.
 
 ## Contributing
 
